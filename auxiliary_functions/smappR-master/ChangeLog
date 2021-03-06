@@ -1,0 +1,33 @@
+2013-06-15 - version 0.1:
+   - Initial release
+2013-10-19 - version 0.2:
+   - Fixes bugs on extract.tweets
+   - Adds ideology estimation and plots
+   - Adds functions to get friends and followers with multiple OAuth tokens
+2014-01-22 - version 0.3:
+    - Added option to query by date
+2014-02-22 - version 0.3.1:
+    - added multiple keywords
+    - remove private info from documentation
+    - updated documentation to changes in code
+2014-03-11 - version 0.3.2:
+    - added getList function
+    - added query by user in mongoDB
+2014-04-15 - version 0.3.3:
+    - added function to dump tweets on MongoDB
+2014-05-01 - version 0.3.4:
+    - query tweets from multiple users
+2014-07-15 - version 0.3.5:
+    - fixed errors in function that formats date
+    - added getStatuses function for bulk download of tweets
+2014-08-14 - version 0.3.6:
+    - new link to twofishes geocoder
+2015-10-13 - version 0.4:
+    - new function: getRetweets, getUsersBatch, searchUsers
+    - some functions now work with httr
+    - general bug fixes
+2016-01-01 - version 0.5:
+    - new function: searchTweets
+    - better verbose messages
+    - fixes bug in getUsersBatch function
+    - improves dependencies
