@@ -1,0 +1,938 @@
+@article{barbera2015,
+    author={P. Barber\´a},
+    title={Birds of the Same Feather Tweet Together. Bayesian Ideal Point Estimation Using Twitter Data},
+    journal={Political Analysis},
+    year={2015},
+    volume={1},
+    number={23},
+    pages={76-91},
+}
+
+@book{james2013,
+    address={Nova Iorque},
+    author={Gareth James and Daniela Witten and Trevor Hastie and Robert Tibshirani},
+    pages={58-82;130-138},
+    publisher={Springer},
+    title={An Introduction to Statistical Learning},
+    year={2013}
+}
+
+@monography{roquim2014,
+    address={Varginha, Minas Gerais},
+    author={Fernanda Venturato Roquim},
+    school={Universidade Federal de Alfenas},
+    title={Modelos Lineares Generalizados: Estudo do M\´etodo de Newton-Raphson para Estima\c{ç}\~ao de Par\^ametros Atrav\´es de Um Modelo Log\´istico},
+    type={Trabalho de conclus\~ao do Programa Integrado de Ensino, Pesquisa e Extens\~ao (PIPEX)},
+    year={2014}
+}
+
+@inreference{verossimil,
+   title = {Veross\´imil},
+   url = {http://www.aulete.com.br/verossímil},
+   booktitle = {Aulete Digital},
+   publisher = {Lexikon Editora Digital},
+   urldate = {2020-11-13},
+   urlaccessdate = {2020-11-13},
+   year = {2020}
+}
+
+@inreference{verossimilhanca,
+   title = {Verossimilhanca},
+   url = {http://www.aulete.com.br/verossimilhança},
+   booktitle = {Aulete Digital},
+   publisher = {Lexikon Editora Digital},
+   urldate = {2020-11-13},
+   urlaccessdate = {2020-11-13},
+   year = {2020}
+}
+
+@book{turk2000,
+    address={Lisboa},
+    author={M. Ant\´onia Amaral Turkman and Giovani Loiola Silva},
+    pages={153},
+    title={Modelos Lineares Generalizados: da teoria \`a pr\´atica},
+    year={2000}
+}
+
+@book{fox2010,
+    address={Nova Iorque},
+    author={Jean-Paul Fox},
+    publisher={Springer},
+    title={Bayesian Item Response Modeling: Theory and Applications},
+    year={2010}
+}
+
+@article{holland1990,
+    author={P. W. Holland},
+    title={On the sampling theory foundations of item response theory models},
+    journal={Psychometrika},
+    year={1990},
+    volume={1},
+    number={55},
+    pages={577-601},
+}
+
+@book{molenaar1995,
+    author={G. H. Fisher and I. W. Molenaar},
+    title={Rasch Models: Foundations, Recent Developments and Applications},
+    address={Nova Iorque},
+    publisher={Springer},
+    year={1995},
+    pages={3-14},
+}
+
+@book{rasch1960,
+    author={G. Rasch},
+    title={Probabilistic Models for some Intelligence Tests and Attainment Tests},
+    address={Copenhagen},
+    publisher={Danish Institute for Educational Research},
+    year={1960}
+}
+
+@phdthesis{campos2016,
+    address={S\~ao Paulo},
+    author={Joelson da Cruz Campos},
+    school={Instituto de Matem\´atica e Estat\´istica, Universidade de S\~ao Paulo},
+    title={Modelagem de dados de resposta ao item sob efeito de speededness},
+    year={2016}
+}
+
+@book{hambswam1985,
+    address={Nova Iorque},
+    author={Ronald K. Hambleton and Hariharan Swaminathan},
+    publisher={Springer},
+    title={Item Response Theory: Principles and Applications},
+    year={1985}
+}
+
+@phdthesis{bazan2005,
+    address={S\~ao Paulo},
+    author={J. Baz\´an},
+    school={Instituto de Matem\´atica e Estat\´istica, Universidade de S\~ao Paulo},
+    title={Uma Fam\´ilia de Modelos de Resposta ao Item Normal Assim\´etrica},
+    year={2005}
+}
+
+@article{andmad1977,
+    author={Erling Andersen and Mette Madsen},
+    title={Estimating the parameters of the latent population distribution},
+    journal={Psychometrika},
+    year={1977},
+    volume={3},
+    number={42},
+    pages={357-374},
+}
+
+@book{andrade2000,
+    address={S\~ao Paulo},
+    author={Dalton Francisco Andrade and Heliton Ribeiro Tavares and Raquel da Cunha Valle},
+    publisher={ABE},
+    title={Teoria da Resposta ao Item: conceitos e aplicaç\~oes},
+    year={2000}
+}
+
+@article{bocklib1970,
+    author={R. Darrell Bock and Marcus Lieberman},
+    title={Fitting a response model for n dichotomously scored items},
+    journal={Psychometrika},
+    year={1970},
+    volume={2},
+    number={35},
+    pages={179-197},
+}
+
+@article{mislevy1986,
+    author={Robert J. Mislevy},
+    title={Bayes modal estimation in item response models},
+    journal={Psychometrika},
+    year={1986},
+    volume={2},
+    number={51},
+    pages={177-195},
+}
+
+@article{gelman2008,
+    author={A. Gelman},
+    title={Objections to Bayesian statistics},
+    journal={Bayesian Analysis},
+    year={2008},
+    number={3},
+    pages={445-450},
+}
+
+@article{bayes1763,
+    author={T. Bayes},
+    title={An essay towards solving a problem in the doctrine of chances},
+    journal={Philosophical Transactions of the Royal Society},
+    year={1763},
+    number={53},
+    pages={370-418},
+}
+
+@book{gilks1996,
+    address={Nova Iorque},
+    author={W. R. Gilks and D. Richardson and D. J. Spiegelhalter},
+    publisher={Springer+Business Media Dordrecht},
+    title={Markov Chain Monte Carlo In Practice},
+    year={1996}
+}
+
+@incollection{kass1988,
+  author={R. E. Kass and L. Tierney and J. B. Kadane},
+  title={Asymptotics in Bayesian computation (with discussion).},
+  editor={J. M. Bernardo and M. H. DeGroot and D. V. Lindley and A. F. M. Smith},
+  booktitle={Bayesian Statistics 3},
+  publisher={Oxford University Press},
+  address={Oxford},
+  year={1988},
+  pages={261-278},
+}
+
+@article{hastings1970,
+    author={W. K. Hastings},
+    title={Monte Carlo sampling methods using Markov chains and their applications},
+    journal={Biometrika},
+    year={1970},
+    number={57},
+    pages={97-109},
+}
+
+@article{metropolis1953,
+    author={N. Metropolis and A. W. Rosenbluth and M. N. Rosenbluth and A. H. Teller and E. Teller},
+    title={Equations of state calculations by fast computing machine},
+    journal={Journal of Chemical Physics},
+    year={1953},
+    number={21},
+    pages={1087-1091},
+}
+
+@mastersthesis{mendonca2008,
+    address={S\~ao Carlos},
+    author={Tiago Silva Mendon\c{Ç}a},
+    school={Centro de Ci\^encias Exatas e de Tecnologia, Universidade Federal de S\~ao Carlos},
+    title={Modelos de Regress\~ao Log\´istica Cl\´assica, Bayesiana e Redes Neurais para Credit Scoring},
+    type={Mestrado em Estat\´istica},
+    year={2008}
+}
+
+@online{terechshenko2017,
+  author = {Zhanna Terechshenko},
+  title = {A post about my research},
+  year = {2017},
+  url = {http://zterechshenko.com/2017/08/09/a-post-about-my-research.html},
+  urldate = {2021-01-17},
+  urlaccessdate = {2021-01-17}
+}
+
+@article{ferreira2011,
+    author={G. C. Ferreira},
+    title={Redes sociais de informa\c{ç}\~ao: uma hist\´oria e um estudo de caso},
+    journal={Perspectivas em Ci\^encia da Informa\c{ç}\~ao},
+    year={2011},
+    number={16},
+    pages={208-231},
+    url = {https://www.scielo.br/pdf/pci/v16n3/13.pdf},
+    urlaccessdate = {2020-10-25},
+}
+
+@article{verbrugge1977,
+    author={Louis M. Verbrugge},
+    title={The Structure of Adult Friendship Choices},
+    journal={Social Forces},
+    year={1977},
+    number={56},
+    pages={576-597},
+}
+
+@book{kadushin2013,
+    address={Madrid},
+    author={Charles Kadushin},
+    publisher={CIS- Centro de Investigaciones Sociol\´ogicas},
+    title={Comprender las redes sociales: Teor\´ias, conceptos y hallazgos},
+    year={2013}
+}
+
+@article{mcpherson2001,
+    author={M. McPherson and L. Smith-Lovin and J.M. Cook},
+    title={Birds of a feather: Homophily in social networks},
+    journal={Annual review of sociology},
+    year={2001},
+    pages={415-444},
+}
+
+@article{conover2012,
+    author={Michael D. Conover and Bruno Gon\c{ç}alves and Alessandro Flammini and Filippo Menczer},
+    title={Partisan Asymmetries in Online Political Activity},
+    journal={EPJ Data Science},
+    year={2012},
+    pages={1-19},
+}
+
+@article{wu2011,
+    author={S. Wu and J. M. Hofman and W.A. Mason and D.J. Watts},
+    title={Who says what to whom on twitter},
+    journal={Proc. 20th international conference on World wide web},
+    year={2011},
+    pages={705-714},
+}
+
+@article{kwak2010,
+    author={H. Kwak and C. Lee and H. Park and S. Moon},
+    title={What is Twitter, a social network or a news media?},
+    journal={Proc. 19th international conference on World wide web},
+    year={2010},
+    pages={591-600},
+}
+
+@book{lazar1944,
+    author={P. F. Lazarsfeld and B. Berelson and H. Gaudet},
+    address={Nova Iorque},
+    title={The peoples choice: How the voter makes up his mind in a presidential election},
+    publisher={Duell, Sloan and Pearce},
+    year={1944}
+}
+
+@article{byant2004,
+    author={J. Bryant and D. Miron},
+    title={Theory and research in mass communication},
+    journal={Journal of communication},
+    year={2004},
+    number={54},
+    volume={4},
+    pages={662-704},
+}
+
+@article{stroud2008,
+    author={Natalie Jomini Stroud},
+    title={Media use and political predispositions: Revisiting the concept ofselective exposure},
+    journal={Political Behavior},
+    year={2008},
+    number={30},
+    volume={3},
+    pages={341-366},
+}
+
+@article{iyengar2009,
+    author={Shanto Iyengar and Kyu S Hahn},
+    title={Red media, blue media: Evidence of ideological selectivityin media use},
+    journal={Journal of communication},
+    year={2009},
+    number={59},
+    volume={1},
+    pages={19-39},
+}
+
+@article{oken2012,
+    author={N. Hodas Oken and K. Lerman},
+    title={How Visibility and Divided Attention Constrain Social Contagion},
+    journal={2012 International Conference on Social Computing},
+    year={2012}
+}
+
+@collection{cambridgedis2009,
+    editor={David Matsumoto}, 
+    title={Cambridge Dictionary of Psychology},
+    year={2009}
+}
+
+@online{navarro2020,
+  author = {José Gabriel Navarro},
+  title = {Social media usage in Brazil - statistics & facts},
+  year = {2020},
+  url = {https://www.statista.com/statistics/242606/number-of-active-twitter-users-in-selected-countries/},
+  urldate = {2020-10-28},
+  urlaccessdate = {2021-02-07}
+}
+
+@inreference{backlash2020,
+   title = {Backlash},
+   url = {https://dictionary.cambridge.org/us/dictionary/english/backlash},
+   booktitle = {Cambridge Dictionary},
+   publisher = {Cambridge University Press},
+   urldate = {2020-10-28},
+   urlaccessdate = {2020-10-28},
+   year = {2020}
+}
+
+@inproceedings{rensi2017,
+    author={Julia Silva Rensi},
+    title={Gênero na Governança da Internet: uma análise do processo de mobilização da sociedade civil},
+    booktitle={6° Encontro Nacional ABRI 2017},
+    year={2017},
+    address={Belo Horizonte},
+    url = {http://www.encontro2017.abri.org.br/resources/anais/8/1499732468_ARQUIVO_Julia_S_Rensi.ABRI_2017.pdf},
+    urldate = {2020-10-29},
+    urlaccessdate = {2020-10-29}
+    
+}
+
+@inproceedings{gohn2016,
+    author={Maria da Glória Gohn},
+    title={Mobilização da Juventude e Redes Sociais},
+    booktitle={Anais da 68ª Reunião Anual da SBPC},
+    year={2016},
+    address={Porto Seguro},
+    url = {http://www.sbpcnet.org.br/livro/68ra/PDFs/ arq_4563_2162.pdf},
+    urldate = {2020-10-29},
+    urlaccessdate = {2020-10-29}
+}
+
+@article{martinez2019,
+    author={F. Martinez},
+    title={Feminismos em movimento no ciberespaço},
+    journal={Cadernos Pagu},
+    year={2019},
+    number={56},
+    volume={1},
+    pages={1-34},
+    url={https://periodicos.sbu.unicamp.br/ojs/index.php/cadpagu/article/view/8657098},
+    urldate = {2020-10-29},
+    urlaccessdate = {2020-10-29}
+}
+
+@online{melito2014,
+    author={Leandro Melito},
+    title={Relembre: jornada de protestos de junho completa um ano},
+    year = {2014},
+    url = {http://www.ebc.com.br/cidadania/2014/06/protestos-completam-um-ano-e-violencia-policial-se-repete},
+    urldate = {2017-06-20},
+    urlaccessdate = {2017-06-20}
+}
+
+@phdthesis{araujo2018,
+    address={Rio de Janeiro},
+    author={Júlia Silveira de Araujo},
+    school={Universidade Federal Fluminense},
+    title={Minha rede, minhas regras: Hashtags, mobilização de mulheres e publicação de narrativas íntimas na internet},
+    year={2018},
+    url={http://ppgcom.uff.br/wp-content/uploads/sites/200/2020/03/tese_doutorado_2018_julia_silveira_de_araujo.pdf},
+    urldate = {2020-10-29},
+    urlaccessdate = {2020-10-29}
+}
+
+@inproceedings{perez2019,
+    author={Olívia Cristina Perez and Arlene Martinez Ricoldi},
+    title={A quarta onda feminista: interseccional, digital e coletiva},
+    booktitle={X Congresso Latino-americano de Ciência Política (ALACIP)},
+    year={2019},
+    url = {https://alacip.org/cong19/25-perez-19.pdf},
+    urldate = {2020-10-29},
+    urlaccessdate = {2020-10-29}
+}
+
+@incollection{haraway2000,
+    author={D. Haraway},
+    address={Belo Horizonte},
+    title={Manifesto Ciborgue. Ciência, tecnologia e feminismo-socialismo no final do século XX},
+    publisher={Autêntica Editora},
+    year={2000},
+    editor={T. Tadeu},
+    booktitle={Antropologia do ciborgue. As vertigens do pós-humano},
+}
+
+@mastersthesis{coelho2018,
+    address={Vitória},
+    author={Ana Paula Pereira Coelho},
+    school={Centro de Artes, Universidade Federal do Espírito Santo},
+    title={Do sujeito ao ciborgue: ciberfeminismo e teoria feminista para o século XXI},
+    type={Mestrado em Comunicação e Territorialidades},
+    year={2018},
+    url={http://portais4.ufes.br/posgrad/teses/tese_12576_DISSERTAC%26%23807%3BA%26%23771%3BO%20ANA%20VERSA%26%23771%3BO%20DEFINITIVA_OFICIAL.pdf},
+    urldate = {2020-10-29},
+    urlaccessdate = {2020-10-29}
+}
+
+@inproceedings{almeida2019,
+    author={Anna Gabriella Almeida},
+    title={A utilização de hashtags como instrumento de divergência ao discurso feminista},
+    booktitle={Anais Eletrônicos do V Seminário de Formação de Professores e Ensino de Língua Inglesa},
+    volume={5},
+    year={2019},
+    url = {https://ri.ufs.br/bitstream/riufs/12746/2/UtilizacaoHashtagsInstrumentoDiscursoFeminista.pdf},
+    urldate = {2020-10-29},
+    urlaccessdate = {2020-10-29}
+}
+
+@mastersthesis{bichara2019,
+    address={Rio de Janeiro},
+    author={Marina Bichara},
+    school={Fundação Getúlio Vargas},
+    title={Uso do Twitter em Campanhas Eleitorais: Um Estudo de Caso},
+    type={Mestrado Profissional em Administração Pública},
+    year={2019},
+    url={https://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/28842/Marina%20Bichara_Aprovada_V3.pdf?sequence=1&isAllowed=y},
+    urldate = {2020-10-29},
+    urlaccessdate = {2020-10-29}
+}
+
+@article{machado2019,
+    author={Jorge Machado and Richard Miskolci},
+    title={Das jornadas de junho à cruzada moral: o papel das redes sociais na polarização política brasileira},
+    journal={Sociol. Antropol.},
+    address={Rio de Janeiro},
+    year={2019},
+    number={3},
+    volume={9},
+    pages={945-970},
+    url={http://www.scielo.br/scielo.php?script=sci_arttext&pid=S2238-38752019000300945&lng=en&nrm=iso},
+    urldate = {2020-10-29},
+    urlaccessdate = {2020-10-29}
+}
+
+@article{rampton2008,
+    author={Martha Rampton},
+    title={Four Waves of Feminism},
+    year = {2008},
+    journal={Pacific Magazine},
+    url = {https://www.pacificu.edu/about-us/news-events/four-waves-feminism},
+    urldate = {2020-10-15},
+    urlaccessdate = {2020-10-15}
+}
+
+@inproceedings{sousa2018,
+    author={Delles de Lean Rodrigues Sousa and Jéssica Aparecida Lima Ara\´ujo},
+    title={Feminismo contemporâneo: as mídias sociais como ferramentas de resistência},
+    booktitle= {VI Semana de História do Pontal, V Encontro de Ensino de História},
+    volume={6},
+    year={2018},
+    address={Ituiutaba},
+    url = {http://www.eventos.ufu.br/sites/eventos.ufu.br/files/documentos/delles_de_lean_rodrigues_de_sousa.pdf},
+    urldate = {2020-10-15},
+    urlaccessdate = {2020-10-15}
+}
+
+@incollection{duarte2019,
+    author={Constância Lima Duarte},
+    address={Rio de Janeiro},
+    title={Feminismo: uma história a ser contada},
+    publisher={Bazar do Tempo},
+    year={2019},
+    editor={Heloisa Buarque de Hollanda},
+    booktitle={Pensamento Feminista Brasileiro: Formação e contexto},
+    pages={25-47}
+}
+
+@incollection{silveira2015,
+    author={Sergio Amadeu Silveira},
+    title={Direita nas Redes Sociais Online},
+    publisher={Fundação Perseu Abramo},
+    year={2015},
+    editor={Sebastião Velasco Cruz and André Kaysel and Gustavo Codas},
+    booktitle={Direita, Volver!: o retorno da direita e o ciclo político brasileiro},
+}
+
+@book{beauvoir1967,
+    author={Simone de Beauvoir},
+    address={São Paulo},
+    title={O segundo sexo: a experiência vivida},
+    volume={2},
+    publisher={Difusão Européia do Livro},
+    year={1967}
+}
+
+@article{noronha2020,
+    author={Elizângela Costa de Carvalho Noronha and Maria João Silveirinha},
+    title={``Um quarto todo seu'' na era digital: pós feminismo e notícias para públicos femininos na plataforma Delas},
+    year = {2020},
+    journal={Comunicação Pública},
+    volume={15},
+    url = {http://journals.openedition.org/cp/6162},
+    urldate = {2020-06-29},
+    number={28},
+    urlaccessdate = {2020-10-15}
+}
+
+@article{gill2007,
+    author={Rosalind Gill},
+    title={Postfeminist media culture: elements of a sensibility},
+    year = {2007},
+    journal={European Journal of Cultural Studies},
+    url = {http://eprints.lse.ac.uk/2449/1/Postfeminist_media_culture_(LSERO).pdf},
+    number={10},
+    volume={2},
+    pages={147-166},
+    urldate = {2020-10-15},
+    urlaccessdate = {2020-10-15}
+}
+
+@article{cruz2015,
+    author={Maria Helena Santana Cruz and Alfrancio Ferreira Dias},
+    title={Antifeminismo},
+    year = {2015},
+    journal={Revista de Estudos de Cultura},
+    url = {https://seer.ufs.br/index.php/revec/article/view/3651/3116},
+    number={1},
+    urldate = {2020-10-15},
+    urlaccessdate = {2020-10-15}
+}
+
+@incollection{alves2019,
+    author={Branca Moreira Alves},
+    address={Rio de Janeiro},
+    title={A luta das sufragistas},
+    publisher={Bazar do Tempo},
+    year={2019},
+    editor={Heloisa Buarque de Hollanda},
+    booktitle={Pensamento Feminista Brasileiro: Formação e contexto},
+    pages={49-63}
+}
+
+@article{cesar2017,
+    author={Maria Rita de Assis C\´esar and André de Macedo Duarte},
+    title={Governamento e pânico moral: corpo, gênero e diversidade sexual em tempos sombrios},
+    year = {2017},
+    journal={Educar em Revista},
+    url = {http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-40602017000400141},
+    number={66},
+    urldate = {2020-10-15},
+    urlaccessdate = {2020-10-15}
+}
+
+@article{milkolcicampana2017,
+    author={Richard Miskolci and Maximiliano Campana},
+    title={``Ideologia de gênero'': notas para a genealogia de um pânico moral contemporâneo},
+    year = {2017},
+    journal={Soc. estado.},
+    url = {http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0102-69922017000300725&lng=en&nrm=iso},
+    number={3},
+    volume={32},
+    pages={725-748},
+    address={Brasília},
+    urldate = {2020-10-15},
+    urlaccessdate = {2020-10-15}
+}
+
+@article{leite2019,
+    author={Vanessa Leite},
+    title={``Em defesa das crianças e da família'': Refletindo sobre discursos acionados por atores religiosos ``conservadores'' em controvérsias públicas envolvendo gênero e sexualidade},
+    year = {2019},
+    journal={Sex., Salud Soc.},
+    url = {http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1984-64872019000200119&lng=en&nrm=iso},
+    number={32},
+    pages={119-142},
+    address={Rio de Janeiro},
+    urldate = {2019-09-09},
+    urlaccessdate = {2020-10-15}
+}
+
+@internet{brasil2004,
+    author={Brasil},
+    title={Brasil sem Homofobia. Programa de combate à violência e à discriminação contra GLTB e promoção da cidadania homossexual},
+    year = {2004},
+    url = {https://bvsms.saude.gov.br/bvs/publicacoes/brasil_sem_homofobia.pdf},
+    publisher={Ministério da Sa\´ude},
+    address={Brasília},
+    urlaccessdate = {2020-10-15}
+}
+
+@internet{brasil2008,
+    author={Brasil},
+    title={Anais da Conferência Nacional de gays, lésbicas, bissexuais, travestis e transexuais - GLBT. Direitos Humanos e Políticas Públicas. O caminho para garantir a cidadania GLBT},
+    year = {2008},
+    url = {https://direito.mppr.mp.br/arquivos/File/IConferenciaNacionaldeGaysLesbicasBissexuaisTravestiseTransexuaisGLBT.pdf},
+    address={Brasília},
+    publisher={Secretaria Especial dos Direitos Humanos},
+    urlaccessdate = {2020-10-15}
+}
+
+@internet{brasil2010,
+    author={Brasil},
+    title={Documento Final - Conferência Nacional de Educação - CONAE},
+    year = {2010},
+    url = {http://pne.mec.gov.br/images/pdf/CONAE2010_doc_final.pdf},
+    address={Brasília},
+    publisher={Ministério da Educação},
+    urlaccessdate = {2020-10-15}
+}
+
+@article{correa2018,
+    author={Vanessa Leite},
+    title={A ``política do gênero'': um comentário genealógico},
+    year = {2018},
+    journal={Cadernos Pagu},
+    url = {http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-83332018000200401&lng=en&nrm=iso},
+    number={53},
+    address={Campinas},
+    urldate = {2019-09-09},
+    urlaccessdate = {2020-10-15}
+}
+
+@article{machado2018,
+    author={Maria das Dores Campos Machado},
+    title={O discurso cristão sobre a ``ideologia de gênero''},
+    year = {2018},
+    journal={Rev. Estud. Fem.},
+    url = {http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-026X2018000200212&lng=en&nrm=iso},
+    number={2},
+    volume={26},
+    address={Florianópolis},
+    urldate = {2019-09-09},
+    urlaccessdate = {2020-10-15}
+}
+
+@article{silva2018,
+    author={Ivanderson Pereira da Silva},
+    title={Em busca de significados para a expressão ``ideologia de gênero''},
+    year = {2018},
+    journal={Educ. rev.},
+    url = {http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0102-46982018000100186&lng=pt&nrm=iso},
+    number={34},
+    address={Belo Horizonte},
+    urldate = {2019-09-09},
+    urlaccessdate = {2020-10-15}
+}
+
+@internet{bbc2009,
+    author={Camilla Costa},
+    title={O médico excomungado por aborto de menina de 9 anos vítima de estupro},
+    year = {2016},
+    url = {https://www.bbc.com/portuguese/brasil-36402029},
+    address={Recife},
+    urlaccessdate = {2020-10-15}
+}
+
+@internet{montfort2009,
+    author={Sandro Magister},
+    title={O caso de Recife. Roma falou, mas a causa não terminou},
+    year = {2009},
+    url = {http://www.montfort.org.br/bra/veritas/igreja/o-caso-de%20recife/},
+    urlaccessdate = {2021-02-08}
+}
+
+@article{sappia2010,
+    author={Caroline Sappia},
+    title={Un Institut des hautes études doctrinales pour l'Amérique latine à Louvain? Reflet des conflits idéologiques latino-américains à l'Université catholique de Louvain (1964-1970)},
+    year={2010},
+    journal={Histoire et missions chrétiennes},
+    url = {https://www.cairn.info/revue-histoire-monde-et-cultures-religieuses1-2010-2-page-125.htm},
+    number={14},
+    pages={125-144},
+    urlaccessdate = {2021-02-08}
+}
+
+@article{ottaviani2018,
+    author={Edelcio Serafim Ottaviani and Anderson Frezzato},
+    title={Teologia a Marteladas},
+    year = {2018},
+    journal={Paralellus - Revista Eletrônica em Ciências da Religião},
+    url = {http://www.unicap.br/ojs/index.php/paralellus/article/view/1281/pdf},
+    volume={9},
+    number={22},
+    address={Recife},
+    pages={597-619},
+    urldate = {2018-12-01},
+    urlaccessdate = {2021-02-08}
+}
+
+@internet{revoredo1998,
+    author={O. A. Revoredo},
+    title={A ideologia do gênero: seus perigos e alcances},
+    year = {1998},
+    url = {https://img.cancaonova.com/noticias/pdf/281960_IdeologiaDeGenero_PerigosEAlcances_ConferenciaEpiscopalPeruana.pdf},
+    urlaccessdate = {2020-10-15}
+}
+
+@article{saldana2018,
+    author={Paulo Salda{\~{n}}a},
+    year={2018},
+    title={Motores de Bolsonaro, Escola sem Partido e ideologia de gênero têm raízes religiosas},
+    journaltitle= {Folha de S. Paulo},
+    location= {S\~ao Paulo},
+    url = {https://www1.folha.uol.com.br/educacao/2018/10/motores-de-bolsonaro-escola-sem-partido-e-ideologia-de-genero-tem-raizes-religiosas.shtml?cmpid=assmob&origin=folha},
+    date = {2018-10-23},
+    note= {Eleições 2018},
+    urlaccessdate = {2020-10-15},
+}
+
+@article{rangel2018,
+    author={Sérgio Rangel},
+    year={2018},
+    title={Bolsonaro pede disciplina e critica ``ideologia de gênero'' em entrega de colégio da PM},
+    journaltitle= {Folha de S. Paulo},
+    location= {S\~ao Paulo},
+    url = {https://www1.folha.uol.com.br/educacao/2018/12/bolsonaro-pede-disciplina-e-critica-ideologia-de-genero-em-entrega-de-colegio-da-pm.shtml},
+    date = {2018-12-17},
+    urlaccessdate = {2020-10-15},
+    note= {Educação},
+}
+
+@article{pontes2017,
+    author={Fabio Pontes},
+    year={2017},
+    title={Bolsonaro: Vou combater a corrupção e a violência com radicalismo},
+    journaltitle= {Valor Econômico},
+    location= {Manaus},
+    url = {https://valor.globo.com/politica/noticia/2017/12/14/bolsonaro-vou-combater-a-corrupcao-e-a-violencia-com-radicalismo.ghtml},
+    date = {2017-12-14},
+    urlaccessdate = {2020-10-15},
+    note= {Política},
+}
+
+@article{pires2018,
+    author={Breiller Pires},
+    year={2018},
+    title={Educação, o primeiro ‘front’ da guerra cultural do Governo Bolsonaro},
+    journaltitle= {El País},
+    location= {S\~ao Paulo},
+    url = {https://brasil.elpais.com/brasil/2018/11/01/politica/1541112164_074588.html},
+    date = {2018-11-05},
+    urlaccessdate = {2020-10-15},
+    note= {Educação},
+}
+
+@article{matsui2018,
+    author={Naomi Matsui},
+    year={2018},
+    title={‘Se Congresso aprovar aborto, eu veto’, diz Bolsonaro},
+    journaltitle= {Poder 360},
+    location= {S\~ao Paulo},
+    url = {https://www.poder360.com.br/eleicoes/se-congresso-aprovar-aborto-eu-veto-diz-bolsonaro/},
+    date = {2018-08-03},
+    urlaccessdate = {2020-10-15},
+    note= {Educação},
+}
+
+@article{rossi2020,
+    author={Marina Rossi},
+    year={2020},
+    title={A misoginia do Governo Bolsonaro vai parar na Justiça},
+    journaltitle= {El País},
+    location= {S\~ao Paulo},
+    url = {https://brasil.elpais.com/brasil/2020-08-12/a-misoginia-do-governo-bolsonaro-vai-parar-na-justica.html},
+    date = {2020-08-11},
+    urlaccessdate = {2020-10-15},
+    note= {Machismo},
+}
+
+@article{verifica2018,
+    year={2018},
+    author={Estad\~ao Verifica},
+    title={‘Mamadeiras eróticas’ não foram distribuídas em creches pelo PT},
+    journaltitle= {O Estado de S\~ao Paulo},
+    location= {S\~ao Paulo},
+    url = {https://politica.estadao.com.br/blogs/estadao-verifica/mamadeiras-eroticas-nao-foram-distribuidas-em-creches-pelo-pt/},
+    date = {2018-09-28},
+    urlaccessdate = {2020-10-15},
+    note= {Política},
+}
+
+@article{cunha2018,
+    year={2018},
+    author={Ana Rita Cunha and Luiz Fernando Menezes},
+    title={Checamos as declarações de Bolsonaro no Jornal Nacional e na Globo News},
+    journaltitle= {Aos fatos},
+    url = {https://www.aosfatos.org/noticias/checamos-declaracoes-de-bolsonaro-no-jornal-nacional-e-na-globonews/},
+    date = {2018-08-28},
+    urlaccessdate = {2020-10-15},
+}
+
+@article{menezes2018,
+    year={2018},
+    author={Luiz Fernando Menezes},
+    title={Não há projeto de lei para legalizar a pedofilia; imagem distorce projeto do Novo Código Penal},
+    journaltitle= {Aos fatos},
+    url = {https://www.aosfatos.org/noticias/nao-ha-projeto-de-lei-para-legalizar-pedofilia-imagem-distorce-projeto-de-novo-codigo-penal/},
+    date = {2018-10-15},
+    urlaccessdate = {2020-10-15},
+}
+
+@article{miskolci2007,
+    author={Richard Miskolci},
+    title={Pânicos morais e controle social: reflexões sobre o casamento gay},
+    journal={Cad. Pagu},
+    address={Campinas},
+    year={2007},
+    number={28},
+    pages={101-128},
+    url={http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-83332007000100006&lng=en&nrm=iso},
+    urlaccessdate = {2020-10-15}
+}
+
+@article{bafumi2005,
+    author={J. Bafumi and A. Gelman and D.K. Park and N. Kaplan},
+    title={Practical issues in implementing and un-derstanding Bayesian ideal point estimation},
+    journal={Political Analysis},
+    volume={2},
+    number={13},
+    year={2005},
+    pages={171-187},
+}
+
+
+@article{jackman2001,
+    author={Simon Jackman},
+    title={Multidimensional analysis of roll call data via Bayesian simulation: iden-tification, estimation, inference, and model checking},
+    journal={Political Analysis},
+    volume={3},
+    number={9},
+    year={2001},
+    pages={227-241},
+}
+
+@article{peixoto2020,
+    author={Leonardo Ferreira Peixoto},
+    title={Quem mandou matar Marielle? - uma conversa com Luyara Franco},
+    journal={Revista Estudos Feministas},
+    volume={3},
+    number={28},
+    year={2020},
+    pages={227-241},
+}
+
+@article{martinez2018,
+    author={Monise Martinez},
+    title={Pós-feminismo no Reino de Deus: reflexões sobre ambiguidades num percurso «virtuoso»},
+    journal={Revista Cabo dos Trabalhos},
+    year={2018},
+    number={17},
+    url={https://cabodostrabalhos.ces.uc.pt/n17/documentos/03_monise_martinez.pdf},
+    urlaccessdate = {2021-02-23}
+}
+
+@article{souza2017,
+    author={Alana Sá Leitão Souza},
+    title={O Godllywood e a `mulher virtuosa' na IURD},
+    journal={Revista de Estudos e Investigações Antropológicas},
+    year={2017},
+    number={2},
+    volume={4},
+    pages={24-38},
+    url={https://periodicos.ufpe.br/revistas/reia/article/viewFile/231680/25808},
+    urlaccessdate = {2021-02-23}
+}
+
+@book{gelman2006,
+    address={Nova Iorque},
+    pages={654},
+    publisher={Cambridge university press},
+    title={Data Analysis Using Regression and Multilevel/Hierachical Models},
+    author={Andrew Gelman and Jennifer Hill},
+    year={2006}
+}
+
+@article{forceatlas,
+    author = {Jacomy, Mathieu AND Venturini, Tommaso AND Heymann, Sebastien AND Bastian, Mathieu},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software},
+    year = {2014},
+    month = {06},
+    volume = {9},
+    url = {https://doi.org/10.1371/journal.pone.0098679},
+    pages = {1-12},
+    abstract = {Gephi is a network visualization software used in various disciplines (social network analysis, biology, genomics…). One of its key features is the ability to display the spatialization process, aiming at transforming the network into a map, and ForceAtlas2 is its default layout algorithm. The latter is developed by the Gephi team as an all-around solution to Gephi users’ typical networks (scale-free, 10 to 10,000 nodes). We present here for the first time its functioning and settings. ForceAtlas2 is a force-directed layout close to other algorithms used for network spatialization. We do not claim a theoretical advance but an attempt to integrate different techniques such as the Barnes Hut simulation, degree-dependent repulsive force, and local and global adaptive temperatures. It is designed for the Gephi user experience (it is a continuous algorithm), and we explain which constraints it implies. The algorithm benefits from much feedback and is developed in order to provide many possibilities through its settings. We lay out its complete functioning for the users who need a precise understanding of its behaviour, from the formulas to graphic illustration of the result. We propose a benchmark for our compromise between performance and quality. We also explain why we integrated its various features and discuss our design choices.},
+    number = {6},
+    doi = {10.1371/journal.pone.0098679}
+}
+
+@article{carneiro2003,
+    author={Sueli Carneiro},
+    title={Mulheres em movimento},
+    journal={Estudos Avançados},
+    year={2003},
+    number={17},
+    volume={49},
+    pages={117-132},
+    url={https://www.scielo.br/pdf/ea/v17n49/18400.pdf},
+    urlaccessdate = {2021-03-06}
+}
