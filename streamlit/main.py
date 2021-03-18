@@ -76,7 +76,9 @@ elif graph_selection == "Resumo e Outras Informações":
 
 	st.markdown('### Github [link](https://github.com/MoraisCamila91/TCCBarberaFeminismo)')
 
-	st.markdown('### Apresentação e PDF [link](https://github.com/MoraisCamila91/TCCBarberaFeminismo/tree/main/codigos_latex_monografia)')
+	st.markdown('### Apresentação e PDF [link](https://drive.google.com/drive/folders/1EDY-pX0m8FqxQYEnEgCPhluBa3hlmdcY?usp=sharing)')
+
+	st.markdown('### Outros Conteúdos [link](https://drive.google.com/drive/folders/14NVcD6G6JVX87nRSTXr5Hq_bpgtUxw9V?usp=sharing)')
 
 elif graph_selection == "Histograma Influenciadores":
 	fc.hist_inf(df)
