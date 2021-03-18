@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from pathlib import Path
+import base64
 
 import functions as fc
 
@@ -35,16 +37,57 @@ def load_data():
 
 df = load_data()
 
-st.sidebar.title("Gráficos")
-graph_selection = st.sidebar.selectbox("", ["Histograma Influenciadores", 
-					    "Pontos Ideais Influenciadores", 
-					    "Histograma Dez Mil Cidadãos"])
+@st.cache(allow_output_mutation=True)
+def load_data_cidadaos():
+	# draws R
+	df_obs = pd.read_csv('../resumo_resultados/draws_pontos_ideais_cidadaos_fase1.csv').drop(['Unnamed: 0'], axis=1).reset_index().rename({'index': 'draw'}, axis=1)
 
-if graph_selection == "Histograma Influenciadores":
+	# excluindo warm-up
+	df_obs = df_obs[df_obs.draw > 100]
+
+	# draws R Transposta
+	df_obs_t = df_obs.T.reset_index().rename({'index': 'medida'}, axis=1)
+	df_obs_t['medida_media'] = df_obs_t.mean(axis=1)
+
+	return df_obs_t[df_obs_t.medida.str.contains('theta')]
+
+df_cid = load_data_cidadaos()
+
+st.sidebar.title("Gráficos e Infos")
+graph_selection = st.sidebar.selectbox("Escolha a visualização", ["",
+								"Resumo e Outras Informações",
+								"Histograma Influenciadores", 
+					    			"Pontos Ideais Influenciadores", 
+					    			"Histograma Dez Mil Cidadãos",
+					    			"Gráficos de Rede"])
+
+if graph_selection == "":
+	st.markdown('### Diga-me quem segues e lhe direi quem és: Estimação de ideologia feminista no Twitter usando ponto ideal bayesiano')
+	st.markdown('Essa página foi desenvolvida para permitir a visualização dos dados do Trabalho de Conclusão de Curso da aluna Camila Lainetti de Morais, do curso Bacharelado em Matemática Aplicada e Computacional do IME/USP.')
+	st.markdown('Utilize o **menu ao lado esquerdo** para visualizar os gráficos e mais informações sobre o trabalho.')
+
+elif graph_selection == "Resumo e Outras Informações":
+	st.markdown('### Resumo')
+	st.markdown("""Em um contexto no qual a última campanha presidencial vitoriosa teve como um eixo central o combate à “ideologia de gênero”, faz-se necessário compreender o posicionamento de figuras públicas e cidadãos em relação aos temas de gênero e feminismo. Valendo-se do modelo de estimação bayesiana de ponto ideal proposto por Barberá (2015)[1], este trabalho analisa um conjunto de influenciadores e cidadãos brasileiros ativos no Twitter, metrificando seus posicionamentos ideológicos no tocante ao feminismo, com o objetivo de compreender mais sobre os grupos feministas e antifeministas, a relação entre eles, e suas possíveis divisões internas. A observação das estimações de ponto ideal dos influenciadores aponta que existem dois clusters, um feminista e outro antifeminista, bastante separados e com poucos seguidores em comum. Notamos ainda uma subdivisão interna entre feministas negras e não negras, e uma subdivisão interna entre antifeministas que atuam principalmente no âmbito religioso evangélico e aqueles cuja principal atuação concentra-se no âmbito político. Em relação aos cidadãos, observamos que aqueles que seguem muitos influenciadores incluídos no estudo têm, em geral, posicionamentos estimados mais moderados que aqueles das figuras públicas. Construímos ainda, para a validação das conclusões obtidas, uma análise de rede de relacionamentos dos influenciadores.
+\n
+**Palavras-chaves:** gênero; feminismo; antifeminismo; posicionamento ideológico; análise bayesiana.
+\n
+[1] BARBERA, P. Birds of the same feather tweet together. bayesian ideal point estimation using twitter data. Political Analysis, v. 1, n. 23, p. 76–91, 2015.""")
+
+	st.markdown('### Github [link](https://github.com/MoraisCamila91/TCCBarberaFeminismo)')
+
+	st.markdown('### Apresentação e PDF [link](https://github.com/MoraisCamila91/TCCBarberaFeminismo/tree/main/codigos_latex_monografia)')
+
+elif graph_selection == "Histograma Influenciadores":
 	fc.hist_inf(df)
 
 elif graph_selection == "Pontos Ideais Influenciadores":
 	fc.pontos_ideais_inf(df)
 
 elif graph_selection == "Histograma Dez Mil Cidadãos":
-        st.title('Histograma Cidadãos')
+	fc.pontos_ideais_dezmil(df_cid)
+
+elif graph_selection == "Gráficos de Rede":
+	fc.network()
+
+	
