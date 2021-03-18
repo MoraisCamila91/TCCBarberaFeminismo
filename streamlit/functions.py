@@ -166,14 +166,14 @@ def network():
 
 	if network_selection == "Completo":
 		st.markdown('⚠️ **Role para o lado** ⚠️')
-		image_show("../resumo_resultados/imagens/Forceatlas_relativo_flip.png")
+		image_show("imagens/Forceatlas_relativo_flip.png")
 
 	elif network_selection == "Cluster Feminista: Negras e Trans":
 		st.markdown('⚠️ **Role para o lado** ⚠️')
-		image_show("../resumo_resultados/imagens/Forceatlas_relativo_nt.png")
+		image_show("imagens/Forceatlas_relativo_nt.png")
 
 	elif network_selection == "Cluster Feminista: Partidos":
-		image_show("../resumo_resultados/imagens/partidosfeministas_rede.png")
+		image_show("imagens/partidosfeministas_rede.png")
 
 	elif network_selection == "Cluster Antifeminista: Partidos":
-		image_show("../resumo_resultados/imagens/partidosantifeministas_rede.png")
+		image_show("imagens/partidosantifeministas_rede.png")

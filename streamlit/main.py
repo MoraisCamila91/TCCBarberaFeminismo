@@ -10,7 +10,7 @@ import functions as fc
 
 @st.cache(allow_output_mutation=True)
 def load_data():
-	df = pd.read_csv("../resumo_resultados/pontos_ideais_outras_infos.csv")
+	df = pd.read_csv("pontos_ideais_outras_infos.csv")
 	df['seguidores_analisados_rel'] = df['seguidores_analisados']/df['seguidores_analisados'].max()
 
 	df.loc[df['nome'].isin(['Instituto Marielle Franco', 
@@ -40,16 +40,9 @@ df = load_data()
 @st.cache(allow_output_mutation=True)
 def load_data_cidadaos():
 	# draws R
-	df_obs = pd.read_csv('../resumo_resultados/draws_pontos_ideais_cidadaos_fase1.csv').drop(['Unnamed: 0'], axis=1).reset_index().rename({'index': 'draw'}, axis=1)
+	df_obs = pd.read_csv('cidadaos_fase1.csv').drop(['Unnamed: 0'], axis=1).reset_index().rename({'index': 'draw'}, axis=1)
 
-	# excluindo warm-up
-	df_obs = df_obs[df_obs.draw > 100]
-
-	# draws R Transposta
-	df_obs_t = df_obs.T.reset_index().rename({'index': 'medida'}, axis=1)
-	df_obs_t['medida_media'] = df_obs_t.mean(axis=1)
-
-	return df_obs_t[df_obs_t.medida.str.contains('theta')]
+	return df_obs
 
 df_cid = load_data_cidadaos()
 
